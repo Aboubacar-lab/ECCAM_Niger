@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+
+    <!-- -------------HEADER------------   -->
+
+    <section class="header" style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./img/conts.png'); background-position: center; background-size: cover; position: relative; background-repeat: no-repeat;">
+
+      <nav class="navigation">
+
+        <a href="index.html"><img src="./img/logo.jpg" class="logo"></a>
+
+        <!-- <img src="./img/acc2.jpg" class="header"> -->
+
+        <!-- partial:index.partial.html -->
+
+        <div class="plates" id="lines">
+            <div class="plate plate4" onclick="this.classList.toggle('active')">
+                <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100" onclick="showmenu()" >
+                  <path class="line line1" d="M 50,35 H 30" />
+                  <path class="line line2" d="M 50,35 H 70" />
+                  <path class="line line3" d="M 50,50 H 30" />
+                  <path class="line line4" d="M 50,50 H 70" />
+                  <path class="line line5" d="M 50,65 H 30" />
+                  <path class="line line6" d="M 50,65 H 70" />
+                </svg>
+                <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100" onclick="hidemenu()" >
+                  <path class="line" d="M 34,32 L 66,68" />
+                  <path class="line" d="M 66,32 L 34,68" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- partial:index.partial.html -->
+        <div>
+            <ul id="navlinks">
+                <li class="list active">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Accueille</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="formation.html">
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <span class="text">formations</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="contacts.html">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="text">Contacts</span>
+                    </a>
+                </li>
+                <!-- <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="image-outline"></ion-icon>
+                        </span>
+                        <span class="text">Photos</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="text">Settings</span>
+                    </a>
+                </li> -->
+                <div class="indicator"></div>
+            </ul>
+        </div>
+      </nav>
+
+
+        
+
+
+        <div class="text-box">
+            <h1>Contacts</h1>
+            <h2>ECCAM_Niger, Temple du savoir</h2>
+            <!-- <p class="preface">Ecole de Comptabilite, de Communication, d'Administration, et de Management</p>
+            <p class="preface">Pourquoi ECCAM ? C'est une école à taille humaine ce qui facilite les échanges avec les enseignants. Les formations sont de qualité et permettent d'aborder le monde du travail sereinement.</p> -->
+            
+            <a href="#" class="hero-btn">Contactez nous</a>
+        </div>
+
+
+    </section>
+
+    <!-- <! -----------------COURSE---------------   --- >     -->
+    <!-- <section class="course">
+      <h1>Niveaux de formation</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>BEP CAP</h3>
+          <p class="par">
+            Lorem ipsum dolor sit amet, 
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>BAC PRO</h3>
+          <p class="par">
+            Lorem ipsum dolor sit amet, 
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>BTS</h3>
+          <p class="par">
+            Lorem ipsum dolor sit amet, 
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Licence</h3>
+          <p class="par">
+            Lorem ipsum dolor sit amet, 
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Master</h3>
+          <p class="par">
+            Lorem ipsum dolor sit amet, 
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ----------CAMPUS---------  -->
+
+    <section class="campus">
+      <h1>Notre contact</h1>
+      <hr>
+      <div id="slideContainer">
+        <!-- <button id='prev' class="sliderBtn">&lt;
+            <button id="next" class="sliderBtn">&gt;</button>
+        </button> -->
+        <div class="slide show">
+          <h2> </h2>
+          <img src="./img/conts.png" alt="slide1" />
+        </div>
+        <!-- <div class="slide">
+          <h2>Membres administratifs</h2>
+          <img src="./img/ad1.jpg" alt="slide2" />
+        </div>
+        <div class="slide">
+          <h2> Directeur Général</h2>
+          <img src="./img/ad2.jpg" alt="slide3" />
+        </div>
+        <div class="slide">
+          <h2>Responsable des études</h2>
+          <img src="./img/ad3.jpg" alt="slide4" />
+        </div> -->
+      </div>
+    </section>
+
+    <!-- -------Facilities-------  -->
+    <!-- <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat,
+        quibusdam?
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="img/acc3.jpg" alt="library" />
+          <h3>Chez nous la réussite est pour tous</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+            aliquam, sed excepturi nobis amet eaque autem? Voluptate minus harum
+            nihil.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/form2.jpg" alt="library" />
+          <h3>Une excellente formation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+            aliquam, sed excepturi nobis amet eaque autem? Voluptate minus harum
+            nihil.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/info.jpg" alt="library" />
+          <h3>ECCAM WEBTV</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+            aliquam, sed excepturi nobis amet eaque autem? Voluptate minus harum
+            nihil.
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- -------------TESTIMONIALS--------------  -->
+    <!-- <section class="testimonials">
+      <h1>Ce que dit nos etudiants </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, nam?
+      </p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="img/sc4.jpg" alt="student1" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              sapiente unde obcaecati libero recusandae ab eligendi, nobis sint
+              reprehenderit quo?
+            </p>
+            <h3>Nos nouveaux étudiants</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="img/sc5.jpg" alt="student2" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              sapiente unde obcaecati libero recusandae ab eligendi, nobis sint
+              reprehenderit quo?
+            </p>
+            <h3>Nos diplomés</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ----------CALL TO ACTION----------  -->
+
+    <!-- <section class="cta">
+      <div class="slid">
+        <img src="img/sc2.jpg">
+        <img src="img/sc1.jpg">
+        <img src="img/sc3.jpg">
+      </div>
+      <h1>
+        Notre Formation est reconnu par l'etat Nigerien
+      </h1>
+      <a href="" class="hero-btn">CONTACTEZ Nous</a>
+    </section> -->
+
+    <!-- -----------FOOTER----------  -->
+    <section class="footer">
+      <h4>À propos de nous</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptas
+        repellendus reiciendis illo at <br> fugiat excepturi molestiae! Doloremque
+        asperiores eaque quos quo
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Copyright MS Aboubacar </p>
+    </section>
+
+
+    <script  src="./script.js"></script>
+
+</body>
+</html>
